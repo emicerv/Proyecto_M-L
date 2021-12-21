@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;}
+
+/*trabajando-el-contenido(header)*/
+
+.busqueda{
+    margin-left: 10px;}
+body{
+    width: 100%;
+    background-color: #ebebeb;}
+.main-header{
+    background-color: #EAC926;}
+.logo{
+    width: 190px;
+    padding: 20px;}
+.barra{
+    text-align: center; }
+.boton1{
+    width: 25px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;}
+.copy-header{
+    font-weight: 400;
+    text-align: center;}
+.burger-menu{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;}
+.main-navbar{
+    display: none;}
+.main-navbar ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display:inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+    padding-left: 10px;}
+
+/*trabajando-el-contenido(titu-arti-pre)*/
+
+.conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;}
+.titular{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    margin: auto;
+    width: 100%;}
+.imagenbanner{
+    display: none;}
+.headlines{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;}
+.articulos{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    align-items: flex-end;}
+.imag{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+.recuadroprecios{
+    display: flex;
+    background-color: white;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: justify;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+.camion{
+    
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%; 
+    color:#39b54a }
+.prices{
+    padding-left: 18px;
+    color: #666;}
+.offer{
+    margin-left: 70px;
+    color:#39b54a;}
+.description{
+    padding-left: 5px;
+    color: #666;
+    display: none;}
+.coloriconoS{
+    font-size: 30px;}
+   
+    /*trabajando-el-contenido(footer)*/
+
+.footer{
+    display: flex;}
+.footer h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;}
+.footer h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10;
+    text-align: center;}
+.centrar{text-align: center;
+    padding:5px;}
+.coloriconoS{
+    color:#1259c3;
+    font-size: 20px;
+    margin-block-end: 10px;}
+.cuerpodetexto{
+    font-family: 'Roboto', sans-serif;
+    color:#666;}
+    
+    /*trabajando-breackpoint*/
+
+@media(min-width:361px){
+    
+    .articulos{
+        background-color: white;
+        display: flex;
+        margin: 10px;
+        flex-wrap: wrap;
+        flex-direction: initial;
+        justify-content: space-around;
+        box-shadow: none;
+    }
+    .artpapu1{
+        width: 150px;
+    }
+    .artpapu2{
+        width: 150px;
+    }
+    .artpapu3{
+        width: 150px;
+    }
+    .artpapu4{
+        width: 150px;
+    }
+}
+@media(min-width:769px){
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;}
+    .copy-header{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;}
+    .tamaño{
+        font-size: 60px;}
+    .burger-menu{
+        display: none;}
+    .imagenbanner{
+        display: flex;}
+    .img{
+        display: flex;
+        width: 100%;}
+    .headlines{
+        justify-content: space-around;}
+    .main-conteiner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;}
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;}
+    .main-navbar ul{
+        display: flex;}
+    .main-navbar li{
+        margin: 0 5px}
+    .barra{
+        width: 300px;
+        height: 30px;
+        display: flex;
+        align-self: center;  }
+    .flex{
+        
+        justify-content: space-between;}
+    .recuadroprecios{
+        width: 100%;
+        height: 150px; 
+        justify-content: center;
+        padding:15px}
+    .description{
+        align-self: flex-end;}
+    .offer{
+        order: 1;}
+    .footer{
+        justify-content: center;
+        padding:15px}
+    .coloriconoS{
+        font-size: 25px;}
+}
+@media(min-width:769px){
+    .articulos{
+        align-items: flex-end;
+        flex-direction: inherit;
+        box-shadow:none;
+        background-color: white;
+        flex-wrap: nowrap;
+    }
+    .footerpapu{
+        display: flex;
+    }
+    .artpapu1{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 15px;
+    }
+    .artpapu2{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 15px;
+    }
+    .artpapu3{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 15px;
+    }
+    .artpapu4{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 15px;
+    }
+}
+@media(min-width:1200px){
+    .logo{
+        width: 250px;
+        display: flex;
+    }
+    .main-header-top-bar, .main-navbar{
+        align-items: center;
+        width: 100%;
+    }
+    .main-header-top-bar{
+        align-items: center;
+        
+    }
+    .copy-header{
+        max-width:none;
+        font-size: 22px;
+        font-weight:400;
+        margin: 0;
+        display: flex;
+
+
+    }
+    .main-navbar{
+        margin-top: 40px;
+    }
+    .main-navbar li{
+        margin: 0 10px
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+        
+}
+@media(min-width:1200px){
+    .articulos{
+        align-items: flex-end;
+        flex-direction: inherit;
+
+    }
+    .artpapu1{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 15px;
+    }
+    .artpapu2{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 15px;
+    }
+    .artpapu3{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 15px;
+    }
+    .artpapu4{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 15px;
+    }
+}
+
