@@ -112,8 +112,7 @@ body{
     color:#39b54a;}
 .description{
     padding-left: 5px;
-    color: #666;
-    display: none;}
+    color: #666;}
 .coloriconoS{
     font-size: 30px;}
    
@@ -165,6 +164,7 @@ body{
     .artpapu4{
         width: 150px;
     }
+    
 }
 @media(min-width:769px){
     .main-header-top-bar{
