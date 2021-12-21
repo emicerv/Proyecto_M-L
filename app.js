@@ -8,7 +8,7 @@ const publicPatch = path.resolve(__dirname,'./public')
 app.use(express.static(publicPatch)); //la carpeta public sea un recurso estatico
 
 
-app.listen(3002, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Servidor corriendo");
 });
 
